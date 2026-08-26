@@ -13,6 +13,10 @@ h2 {
     color: #333333;
 }
 
+h3 {
+    color: #333333;
+}
+
 p {
     color: #555555;
     font-size: 18px;
@@ -38,4 +42,25 @@ button {
 
 button:hover {
     cursor: pointer;
+}
+
+.whatsapp {
+    text-decoration: none;
+}
+
+.whatsapp-button {
+    display: inline-block;
+}
+
+/* Accessibility helper */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border: 0;
 }
