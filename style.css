@@ -52,6 +52,36 @@ button:hover {
     display: inline-block;
 }
 
+#contact-form {
+  max-width: 540px;
+  margin: 20px auto;
+  text-align: left;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0 12px 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+#contact-form button[type="submit"] {
+  background-color: #2563EB;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#contact-form button[type="submit"]:hover {
+  background-color: #1e4fc0;
+}
+
 /* Accessibility helper */
 .sr-only {
   position: absolute;
